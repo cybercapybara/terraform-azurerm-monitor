@@ -9,7 +9,7 @@ metric crosses a threshold.
 
 ```hcl
 module "monitor" {
-  source = "github.com/cybercapybara/terraform-azurerm-monitor"
+  source = "github.com/moveeeax/terraform-azurerm-monitor"
 
   name                = "prod-ag"
   resource_group_name = "prod-rg"
